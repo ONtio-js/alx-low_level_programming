@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  *main -  return the message from puts function
- *@parametermsg: content of puts function
- *return : this function return 0 if successful
+ *@msg: content of puts function
+
+ *return : 0 if succesful, 1 if oyherwisel
  */
 int main(void)
 {

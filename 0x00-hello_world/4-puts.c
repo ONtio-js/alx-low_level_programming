@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *function main return the message from puts function
+ *main -  return the message from puts function
+ *@parametermsg: content of puts function
+ *return : this function return 0 if successful
  */
 int main(void)
 {

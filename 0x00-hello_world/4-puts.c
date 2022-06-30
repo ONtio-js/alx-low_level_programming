@@ -1,10 +1,9 @@
-#include <stdio.h>
 /**
- *main - return the message from puts function
- *@msg: a message 
- *
- *return: 0 if succesful, 1 if oyherwisel
+ * main - prints the msg
+ * Return: 0 if successful
  */
+#include <stdio.h>
+
 int main(void)
 {
 	char msg[] = "\"Programming is like building a multilingual puzzle";

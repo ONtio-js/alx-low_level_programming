@@ -1,8 +1,12 @@
 #include <stdio.h>
+/*
+ *function main return the message from puts function
+ */
 int main(void)
 {
-	char msg[] = "\"programming is like building a multilingua puzzle";
+	char msg[] = "\"Programming is like building a multilingua puzzle";
 
 	puts(msg);
+
 	return (0);
 }

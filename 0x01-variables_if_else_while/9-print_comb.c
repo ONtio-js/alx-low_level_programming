@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (num == '9')
 		{
-			putchar(ch);
+			putchar(num);
 		}
 		else
 		{

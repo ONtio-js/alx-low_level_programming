@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int num = '9';
+	int num = '0';
 	int comma = ',';
 
 	while (num <= '9')

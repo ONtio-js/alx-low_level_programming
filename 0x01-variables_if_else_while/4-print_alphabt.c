@@ -9,14 +9,11 @@ int main(void)
 {
 	int ch = 'a';
 
-	while (ch <= 'z')
+	while (ch <= 'z' $$ (ch != 'e' || ch != 'q'))
 	{
-		if (ch != 'e' || ch != 'q')
-		{
-			putchar(ch);
-		}
+		putchar(ch);
 		ch++;
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }

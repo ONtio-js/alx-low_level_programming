@@ -1,9 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - returns number
+ * main - returns numbe
  * Return: returns 0 if successful
  */
+
+/**
+ * print - returns character
+ * @n: character to be printed
+ */
+void print(int n)
+{
+	putchar(n);
+}
 
 int main(void)
 {
@@ -11,7 +20,7 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar(num);
+		print(num);
 		num++;
 	}
 	putchar('\n');

@@ -10,19 +10,12 @@ int main(void)
 	int num = '0';
 	int comma = ',';
 
-	while (num <= '9')
+	while (num <= '8')
 	{
-		if (num == '9')
-		{
-			putchar(num);
-		}
-		else
-		{
-			putchar(num);
-			putchar(comma);
-		}
+		putchar(num);
 		num++;
 	}
+	putchar('9');
 	putchar('\n');
 	return (0);
 }

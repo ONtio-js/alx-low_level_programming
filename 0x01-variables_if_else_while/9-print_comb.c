@@ -13,7 +13,7 @@ int main(void)
 	while (num <= '8')
 	{
 		putchar(num);
-		putchar(',');
+		putchar(comma);
 		putchar(' ');
 		num++;
 	}

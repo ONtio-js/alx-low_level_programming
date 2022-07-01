@@ -9,7 +9,7 @@ int main(void)
 {
 	int ch = 'a';
 
-	while (ch <= 'z' $$ (ch != 'e' || ch != 'q'))
+	while ((ch <= 'z') $$ (ch != 'e' || ch != 'q'))
 	{
 		putchar(ch);
 		ch++;

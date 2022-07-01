@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	int num = 9;
+	int num = '9';
 	int comma = ',';
 
-	while (num <= 9)
+	while (num <= '9')
 	{
-		if (num ==9')
+		if (num =='9')
 		{
 			putchar(num);
 		}

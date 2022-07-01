@@ -9,9 +9,20 @@ int main(void)
 {
 	int ch = 'a';
 
-	while ((ch <= 'z') $$ (ch != 'e' || ch != 'q'))
+	while (ch <= 'z')
 	{
-		putchar(ch);
+		if (ch == 'e')
+		{
+			continue;
+		}
+		else if (ch == 'q')
+		{
+			continue;
+		}
+		else
+		{
+			putchar(ch);
+		}
 		ch++;
 	}
 	putchar('\n');

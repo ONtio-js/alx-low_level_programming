@@ -5,7 +5,7 @@
  * Return: returns 1 if successful or 0 if otherwise
  */
 
-int _islower (int value)
+int _isalpha(int value)
 {
 	if ((value >= 'a' || value >= 'A') && (value <= 'z' || value <= 'Z'))
 	{

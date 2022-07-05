@@ -11,7 +11,7 @@ int print_sign(int value)
 	{
 		return (1);
 	}
-	else if (value = 0)
+	else if (value == 0)
 	{
 		return (0);
 	}

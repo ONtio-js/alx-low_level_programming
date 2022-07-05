@@ -1,25 +1,31 @@
 #include "main.h"
+
 /**
- * jack_bauer - print eveeg hour and minutes of jack bauer
- * Return: return 0 if successful 1 if otherwise
+ * jack_bauer -prints every minute of the day
+ *
+ * Return: Always 0.
  */
 
 void jack_bauer(void)
-{
-	int hour = 00;
-	int minutes;
 
-	while (hour <= 24)
+{
+	int a;
+	int b;
+
+	for (a = 0; a <= 23; a++)
 	{
-		_putchar(hour);
-		minutes = 00;
-		while (minutes <= 60)
+		for (b = 0; b <= 59; b++)
 		{
-			_putchar(':');
-			_putchar(minutes);
-			minutes++;
-		}
-		_putchar('\n');
-		hour++;
+			_putchar (a / 10 + '0');
+			_putchar (a % 10 + '0');
+			_putchar (':');
+			_putchar (b / 10 + '0');
+			_putchar (b % 10 + '0');
+			_putchar ('\n');
+
+		}	
+
+
 	}
+
 }

@@ -9,7 +9,8 @@ int print_sign(int value)
 {
 	if (value > 0)
 	{
-		return (+1);
+		_putchar('+');
+		return (1);
 	}
 	else if (value == 0)
 	{
@@ -17,6 +18,7 @@ int print_sign(int value)
 	}
 	else
 	{
-		return (-1);
+		_putchar('-');
+		return (1);
 	}
 }

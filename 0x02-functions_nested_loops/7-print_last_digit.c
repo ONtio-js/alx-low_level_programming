@@ -7,6 +7,7 @@
 
 int print_last_digit(int value)
 {
+	_abs(value);
 	if (value % 10 == 0)
 	{
 		_putchar('0');

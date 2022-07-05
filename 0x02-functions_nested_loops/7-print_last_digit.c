@@ -8,6 +8,7 @@
 int print_last_digit(int value)
 {
 	int remain = value % 10;
+
 	if (remain < 0)
 	{
 		remain = -(remain);

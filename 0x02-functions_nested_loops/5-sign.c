@@ -14,6 +14,7 @@ int print_sign(int value)
 	}
 	else if (value == 0)
 	{
+		_putchar('0');
 		return (0);
 	}
 	else

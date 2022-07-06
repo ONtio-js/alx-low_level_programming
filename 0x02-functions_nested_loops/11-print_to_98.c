@@ -12,7 +12,14 @@ void print_to_98(int value)
 		
 		while (value < 99)
 		{
-			printf("%d, ", value);
+			if (value == 98)
+			{
+				printf("%d", value);
+			}
+			else
+			{
+				printf("%d, ", value);
+			}
 			value++;
 		}
 		_putchar('\n');
@@ -21,7 +28,14 @@ void print_to_98(int value)
 	{
 		while (value >= 98)
 		{
-			printf("%d, ", value);
+			if (value == 98)
+			{
+				printf("%d", value);
+			}
+			else
+			{
+				printf("%d, ",value);
+			}
 			value--;
 		}
 		_putchar('\n');

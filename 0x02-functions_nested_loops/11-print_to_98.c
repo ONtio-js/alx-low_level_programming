@@ -9,7 +9,6 @@ void print_to_98(int value)
 {
 	if (value < 98)
 	{
-		
 		while (value < 99)
 		{
 			if (value == 98)
@@ -34,7 +33,7 @@ void print_to_98(int value)
 			}
 			else
 			{
-				printf("%d, ",value);
+				printf("%d, ", value);
 			}
 			value--;
 		}

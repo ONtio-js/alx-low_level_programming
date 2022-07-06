@@ -1,42 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 - print from the given number to 98
- * @value: the stationary point to start ckunting
+ * print_to_98 - print all natural numbers from n to 98.
+ * @n: the number to start counting from n to 98
+ * Return: Always 0.
  */
-
-void print_to_98(int value)
+void print_to_98(int n)
 {
-	if (value < 98)
+	if (n < 98)
 	{
-		while (value < 99)
-		{
-			if (value == 98)
-			{
-				printf("%d", value);
-			}
-			else
-			{
-				printf("%d, ", value);
-			}
-			value++;
-		}
-		_putchar('\n');
+		for (n = n; n < 98; n++)
+			printf("%d, ", n);
+		printf("%d\n", 98);
 	}
 	else
 	{
-		while (value >= 98)
-		{
-			if (value == 98)
-			{
-				printf("%d", value);
-			}
-			else
-			{
-				printf("%d, ", value);
-			}
-			value--;
-		}
-		_putchar('\n');
+		for (n = n; n > 98; n--)
+			printf("%d, ", n);
+		printf("%d\n", 98);
 	}
 }

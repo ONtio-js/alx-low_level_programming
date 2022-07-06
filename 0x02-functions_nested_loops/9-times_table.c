@@ -17,8 +17,8 @@ void times_table(void)
 			c = a * b;
 			printf("%d,  ", c);
 			b++;
-			printf("\n");
 		}
+		printf("\n");
 		a++;
 	}
 

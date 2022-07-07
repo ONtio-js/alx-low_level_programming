@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	while (value <= 57)
 	{
-		while (value == 2 && value == 4)
+		if (value == 2 && value == 4)
 		{
 			continue
 		}

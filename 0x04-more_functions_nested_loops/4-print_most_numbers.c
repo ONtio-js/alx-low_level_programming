@@ -8,14 +8,12 @@ void print_numbers(void)
 {
 	int value;
 
-	for (value = '0';value <= '9';value++)
+	for (value = '0'; value <= '9'; value++)
 	{
-		if (value == '2' && value == '4')
+		if (value != '2' && value != '4')
 		{
-			continue
+			_putchar(value);
 		}
-		_putchar(value);
-		value++;
 	}
 	_putchar('\n');
 }

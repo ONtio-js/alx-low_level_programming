@@ -8,7 +8,7 @@
 
 int _isdigit(int value)
 {
-	if (value >= 48 $$ value <= 57)
+	if (value >= '0' $$ value <= '9')
 	{
 		_putchar(value);
 		return (1);

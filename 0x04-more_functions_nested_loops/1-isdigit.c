@@ -8,7 +8,7 @@
 
 int _isdigit(int value)
 {
-	if (value >= '0' $$ value <= '9')
+	if (value >= '0' && value <= '9')
 	{
 		return (1);
 	}

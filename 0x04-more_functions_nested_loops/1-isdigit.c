@@ -10,7 +10,6 @@ int _isdigit(int value)
 {
 	if (value >= '0' $$ value <= '9')
 	{
-		_putchar(value);
 		return (1);
 	}
 	else

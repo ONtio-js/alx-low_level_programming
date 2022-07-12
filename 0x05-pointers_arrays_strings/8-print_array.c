@@ -24,4 +24,5 @@ void print_array(int *array, int num)
 		}
 		i++;
 	}
+	printf("\n");
 }

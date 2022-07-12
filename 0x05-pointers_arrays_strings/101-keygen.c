@@ -3,6 +3,9 @@
  * Return: always 0
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 int main(void)
 {
 	char password[84];

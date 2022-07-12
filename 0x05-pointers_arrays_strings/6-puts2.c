@@ -7,11 +7,11 @@
 
 void puts2(char *str)
 {
-	int counter = sizeof(*str) / sizeof(*str[0]);
+	int i;
 
-	for (int i = 0; i <= counter; i++)
+	for (i = 0; i <= counter; i++)
 	{
-		if(i % 2 == 0)
+		if (i % 2 == 0)
 		{
 			_putchar(str[i]);
 		}

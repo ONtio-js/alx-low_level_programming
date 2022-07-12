@@ -13,7 +13,7 @@ void puts_half(char *str)
 	{
 		s++;
 	}
-	if (string + 1 % 2 != '\0')
+	if (s + 1 % 2 != '\0')
 		n = (s - 1) / 2;
 	else
 		n = (s / 2);

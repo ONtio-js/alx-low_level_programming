@@ -7,11 +7,11 @@
 
 void _puts(char *str)
 {
-	int counter = sizeof(*str) / sizeof(*(str + 0));
+	int counter = sizeof(str) / sizeof(*str);
 
 	for (int i = 0; i <= counter; i++)
 	{
-		_putchar(*str[i]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }

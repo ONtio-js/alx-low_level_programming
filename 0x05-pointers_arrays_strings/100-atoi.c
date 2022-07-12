@@ -2,11 +2,11 @@
 
 /**
  * _atoi - converts a string to an integer
- * @string: value to be converted
+ * @s: value to be converted
  * Return: return 1 if successful
  */
 
-int _atoi(char *string)
+int _atoi(char *s)
 {
 	int c = 0;
 	unsigned int ni = 0;

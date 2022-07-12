@@ -10,6 +10,7 @@ void print_array(int *array, int num)
 {
 	int i;
 
+	num = num - 1;
 	i = 0;
 	while (i <= num)
 	{

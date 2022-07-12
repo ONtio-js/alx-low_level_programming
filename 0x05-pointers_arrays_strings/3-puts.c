@@ -7,9 +7,9 @@
 
 void _puts(char *str)
 {
-	int counter = sizeof(str) / sizeof(*str);
+	int i;
 
-	for (int i = 0; i <= counter; i++)
+	for ( i = 0; i != '\0'; i++)
 	{
 		_putchar(str[i]);
 	}

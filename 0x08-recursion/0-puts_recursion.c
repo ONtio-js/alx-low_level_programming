@@ -2,6 +2,7 @@
  * _puts_recursion - it prints the string passed into it
  * @s: strings to be printed
  */
+#include "main.h"
 
 void _puts_recursion(char *s)
 {

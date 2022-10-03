@@ -1,6 +1,6 @@
-# ALL file with .c extension
+# ignore ALL file with .c extension
 *.c
 
-#ALL file with .o extension
+# ignore ALL file with .o extension
 
 *.o

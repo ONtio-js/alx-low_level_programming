@@ -1,0 +1,6 @@
+# ALL file with .c extension
+*.c
+
+#ALL file with .o extension
+
+*.o

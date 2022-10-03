@@ -1,6 +1,6 @@
-# ignore ALL file with .c extension
+
+ # ignore ALL .log files
 *.c
-
-# ignore ALL file with .o extension
-
 *.o
+# ignore ALL files in ANY directory named temp
+temp/ 
